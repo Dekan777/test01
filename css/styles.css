@@ -1,0 +1,29 @@
+
+body {
+  font-family: sans-serif;
+}
+
+.text {
+  border: 2px dashed #2196f3;
+  padding: 15px;
+  margin: 20px;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f44336;
+    padding: 30px;
+    margin: 100px;
+    background-color: #ffeb3b;
+  }
+
+ /*  .box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f44336;
+    padding: 30px;
+    margin: 100px;
+    background-color: #ffeb3b;
+  } */
