@@ -120,3 +120,17 @@ body {
     background-color: #4caf50;
   }
 /* ---------------------------------*/
+/* ---------------cat1 ------------*/
+img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .thumb {
+    border: 10px solid green;
+    border-radius: 50px;
+    width: 480px;
+  
+    overflow: hidden;
+  }
+/* ---------------------- */
