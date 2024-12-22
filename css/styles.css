@@ -1,15 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-body {
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* body {
   font-family: sans-serif;
-}
+  line-height: 1.5;
+  color: #212121;
+} */
 
-.text {
-  border: 2px dashed #2196f3;
-  padding: 15px;
-  margin: 20px;
-}
-
-.box {
+/*------------------square -----------------*/
+/* .box {
     box-sizing: border-box;
     width: 150px;
     height: 150px;
@@ -17,13 +31,92 @@ body {
     padding: 30px;
     margin: 100px;
     background-color: #ffeb3b;
+  } */
+
+/* ---------------square 1 -----------------*/
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid orangered;
+}
+
+.box:hover {
+  border-color: rgb(75, 13, 156);
+} */
+/* ------------------------------------------ */
+/* -------------------cat ----------------------*/
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .post {
+    padding: 20px;
+  
+    max-width: 400px;
+    background-color: #fff;
+    border: 2px dashed #2a2a2a;
+  }
+  
+  .post-thumb {
+    margin-bottom: 30px;
+    border: 2px dashed tomato;
+  }
+  
+  .post-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+  
+    border: 2px dashed teal;
+  }
+  
+  .post-text {
+    margin-bottom: 0;
+    margin-top: 0;
+  
+    border: 2px dashed blue;
   }
 
- /*  .box {
-    width: 150px;
-    height: 150px;
-    border: 5px solid #f44336;
-    padding: 30px;
-    margin: 100px;
-    background-color: #ffeb3b;
-  } */
+  */
+/* ----------------------------------------------- */
+/* ---------------box 123 -----------------*/
+body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .boxis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .box-1 {
+    width: 140px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f44336;
+
+  }
+  
+  .box-2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20%;
+    background-color: #2196f3;
+  }
+  
+  .box-3 {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #4caf50;
+  }
+/* ---------------------------------*/
