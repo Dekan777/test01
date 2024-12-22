@@ -1,15 +1,42 @@
-main {
-    display: flex;
-    justify-content: center;
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-.discount-badge {
+main {
+  display: flex;
+  justify-content: center;
+}
+/* 1 */
+/* .discount-badge {
     width: 200px;
     padding: 12px;
     border-radius: 4px;
       text-transform: uppercase;
       text-align: center;
-      background-color: #010713;
+      background-color: #47494d;
       color: #ffffff;
   }
-  
+   */
+/* 2 */
+.discount-badge {
+  width: 220px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #212121;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.discount-badge.bronze {
+  color: #cd7f32;
+}
+
+.discount-badge.silver {
+  color: #c0c0c0;
+}
+
+.discount-badge.gold {
+  color: #ffd700;
+}
