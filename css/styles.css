@@ -22,17 +22,3 @@ body {
   color: #212121;
   background-color: #f9f9fd;
 }
-
-.pane {
-  display: none;
-  margin-top: 8px;
-}
-
-.pane.is-active {
-  display: block;
-}
-
-.controls {
-  display: flex;
-  gap: 8px;
-}
