@@ -43,6 +43,11 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+    max-width: 100%;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -149,7 +154,4 @@ ul {
 
 .copyright-text {
   color: var(--primary-white-color);
-}
-img {
-    display: block;
 }
