@@ -47,3 +47,28 @@ img {
   display: block;
   max-width: 100%;
 }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: tomato;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  /*  We set the transition values.  */
+  transition: background-color 500ms linear, transform 500ms ease-in-out;
+}
+
+/* When hovering, we change the values of the animated properties. */
+.box:hover {
+  background-color: teal;
+  transform: rotate(180deg);
+}
