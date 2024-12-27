@@ -70,5 +70,5 @@ body {
 /* When hovering, we change the values of the animated properties. */
 .box:hover {
   background-color: teal;
-  transform: rotate(180deg);
+  transform: rotateY(45deg);
 }
