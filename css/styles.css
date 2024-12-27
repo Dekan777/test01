@@ -72,3 +72,67 @@ body {
   background-color: teal;
   transform: rotateY(45deg);
 }
+
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #e0e0e0;
+    animation-name: changeHeaderColor;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.page-nav .link {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 150ms ease-in-out 0ms,
+    background-color 150ms ease-in-out 150ms;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #f44336;
+  background-color: #fff;
+  animation: changeBgColor 2s infinite;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: #1976d2;
+  }
+
+  33% {
+    background-color: #388e3c;
+  }
+
+  66% {
+    background-color: #1976d2;
+  }
+
+  100% {
+    background-color: #388e3c;
+  }
+}
+
+/* header {
+  animation: changeHeaderColor 5s infinite;
+} */
