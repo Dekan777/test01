@@ -49,13 +49,13 @@ img {
 }
 /* ------------------- */
 .form-input:checked {
-  outline: 2px solid #2196f3;
+  outline: 2px solid #ff0707;
   outline-offset: 2px;
 }
 
 /* Selecting .form-label when the checkbox preceding it in markup is checked */
 .form-input:checked + .form-label {
-  color: #2196f3;
+  color: #f70000;
 }
 
 /* Example styles */
